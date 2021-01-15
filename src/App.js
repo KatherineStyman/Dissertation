@@ -15,14 +15,14 @@ const App = () => {
 		<div className={classes["page"]}>
 			<div className={classes["title"]}>Estimation Dissertation Survey</div>
 			<div className={classes["intro"]}>
-				<div className={`${classes["answers"]} ${classes["ignores"]}`}>
-					You have been invited to participate in a survey. During this survey <div className={classes["underline"]}>it is VERY important you do not use the internet </div> when answering, as this survey studies how individuals guess answers.
+				<div className={classes["answers"]}>
+					You have been invited to participate in a survey. During this survey <u>it is VERY important you do not use the internet</u> when answering, as this survey studies how individuals guess answers
 				</div>
 				<div className={classes["answers"]}>
-					Please read the below information, and feel free to get in touch if you have any queries, or if there is anything you do not understand. Once you have read the information, and you are ready to start, please press the button titled "Random Link" below and it will take you to the survey page. The survey consists of 8 Questions, and should not take more than 3 minutes to complete.
+					Please read the information below, and feel free to get in touch if you have any queries, or if there is anything you do not understand. Once you have read the information, and you are ready to start, please press the button below and it will take you to the survey page. The survey consists of 8 Questions, and should not take more than 3 minutes to complete.
 				</div>
 			</div>
-			<a className={classes["link"]} href={link}> Click Me! </a>
+			<a className={classes["link"]} href={link}> Click Me To Begin! </a>
 			<div className={classes["ethic"]}>
 				<div className={classes["question"]}>What is the purpose of this study? </div>
 				<div className={classes["answers"]}>
@@ -31,7 +31,7 @@ const App = () => {
 				
 				<div className={classes["question"]}>Can I participate? Do I have to participate?</div>
 				<div className={classes["answers"]}>
-					If you are over the age of 18 then you are free to participate. Participation is entirely voluntary
+					If you are over the age of 18 and reside in the UK, then you are free to participate. Participation is entirely voluntary
 				</div>
 
 				<div className={classes["question"]}>What will I have to do?</div>
