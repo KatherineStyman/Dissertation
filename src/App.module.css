@@ -1,0 +1,49 @@
+.app {
+	display: flex;
+	justify-content: center;
+	min-height: 100vh;
+	color: white;
+	background-color: #282c34;
+}
+
+.page {
+	display: flex;
+	width: 80vw;
+	align-items: center;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.title {
+	margin: 5vh;
+	font-size: 4em;
+}
+
+.intro {
+	font-size: 1.5em;
+}
+
+
+
+.underline {
+	text-decoration: underline;
+}
+
+.link {
+	margin: 3vh;
+	color: #61dafb;
+	font-size: 2em;
+	padding-bottom: 3vh;
+}
+
+.ethic {
+	font-size: 1.5em;
+}
+
+.question {
+	text-decoration: underline;
+}
+
+.answers {
+	padding-bottom: 3vh;
+}
