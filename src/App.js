@@ -3,7 +3,6 @@ import classes from './App.module.css'
 const App = () => {
 
 	const surveys = [
-		"https://leeds.onlinesurveys.ac.uk/estimation-dissertation-survey-1",
 		"https://leeds.onlinesurveys.ac.uk/estimation-dissertation-survey-2-2",
 		"https://leeds.onlinesurveys.ac.uk/estimation-dissertation-survey-3"
 	]
